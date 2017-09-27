@@ -14,6 +14,8 @@
 		023D6FEA1F7B0163008B131C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023D6FE81F7B0163008B131C /* LaunchScreen.storyboard */; };
 		023D6FF51F7B0163008B131C /* MakeMeGreatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D6FF41F7B0163008B131C /* MakeMeGreatTests.swift */; };
 		023D70001F7B02EE008B131C /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D6FFF1F7B02ED008B131C /* SelectionTableViewController.swift */; };
+		023D70021F7B0F68008B131C /* AffrimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D70011F7B0F68008B131C /* AffrimModel.swift */; };
+		023D70031F7B0F68008B131C /* AffrimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D70011F7B0F68008B131C /* AffrimModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		023D6FF41F7B0163008B131C /* MakeMeGreatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMeGreatTests.swift; sourceTree = "<group>"; };
 		023D6FF61F7B0163008B131C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		023D6FFF1F7B02ED008B131C /* SelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewController.swift; sourceTree = "<group>"; };
+		023D70011F7B0F68008B131C /* AffrimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffrimModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 				023D6FE81F7B0163008B131C /* LaunchScreen.storyboard */,
 				023D6FEB1F7B0163008B131C /* Info.plist */,
 				023D6FFF1F7B02ED008B131C /* SelectionTableViewController.swift */,
+				023D70011F7B0F68008B131C /* AffrimModel.swift */,
 			);
 			path = MakeMeGreat;
 			sourceTree = "<group>";
@@ -204,6 +208,7 @@
 			files = (
 				023D6FE21F7B0163008B131C /* ViewController.swift in Sources */,
 				023D6FE01F7B0163008B131C /* AppDelegate.swift in Sources */,
+				023D70021F7B0F68008B131C /* AffrimModel.swift in Sources */,
 				023D70001F7B02EE008B131C /* SelectionTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023D70031F7B0F68008B131C /* AffrimModel.swift in Sources */,
 				023D6FF51F7B0163008B131C /* MakeMeGreatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
