@@ -1,25 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4ye-pM-jSU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hD2-SG-ybn">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="TimesNewRoman.ttf">
+            <string>TimesNewRomanPSMT</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--Selection Table View Controller-->
-        <scene sceneID="eBt-Wn-3Yo">
+        <!--Menu-->
+        <scene sceneID="tjY-qa-KCV">
             <objects>
-                <tableViewController id="Six-Uf-qkP" customClass="SelectionTableViewController" customModule="MakeMeGreat" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZYf-gu-Jx4">
+                <viewController id="4gb-2Z-Awp" customClass="ViewController" customModule="MakeMeGreat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z3w-qd-Nyw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZQ-hc-eNl">
+                                <rect key="frame" x="0.0" y="133" width="375" height="534"/>
+                                <connections>
+                                    <segue destination="Six-Uf-qkP" kind="embed" id="XAc-40-Nrs"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Z1-gl-ssr">
+                                <rect key="frame" x="0.0" y="64" width="375" height="61"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="kvi-fg-cwx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="36"/>
+                                <state key="normal" title="Make Me Great">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PMs-ud-x3u" kind="show" identifier="sw_show_affrimation" id="NRN-o8-Pyc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eZQ-hc-eNl" firstAttribute="trailing" secondItem="IDC-on-Yqf" secondAttribute="trailing" id="C3u-qa-Vha"/>
+                            <constraint firstItem="eZQ-hc-eNl" firstAttribute="top" secondItem="5Z1-gl-ssr" secondAttribute="bottom" constant="8" id="CeS-Lg-MOQ"/>
+                            <constraint firstItem="5Z1-gl-ssr" firstAttribute="top" secondItem="IDC-on-Yqf" secondAttribute="top" id="Dh6-8K-aYH"/>
+                            <constraint firstItem="eZQ-hc-eNl" firstAttribute="bottom" secondItem="IDC-on-Yqf" secondAttribute="bottom" id="GnJ-PR-9vZ"/>
+                            <constraint firstItem="5Z1-gl-ssr" firstAttribute="trailing" secondItem="IDC-on-Yqf" secondAttribute="trailing" id="dYx-yo-FaF"/>
+                            <constraint firstItem="5Z1-gl-ssr" firstAttribute="leading" secondItem="IDC-on-Yqf" secondAttribute="leading" id="gy5-Yi-waJ"/>
+                            <constraint firstItem="eZQ-hc-eNl" firstAttribute="leading" secondItem="IDC-on-Yqf" secondAttribute="leading" id="opx-pP-6Os"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IDC-on-Yqf"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Menu" id="J22-t3-nXd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jdW-wd-wT0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="-306.29685157421289"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1gt-Pv-6F9">
+            <objects>
+                <viewController id="PMs-ud-x3u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Qp-bI-JRP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="iDR-7A-jm8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rfH-0r-Mye" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1572" y="-760"/>
+        </scene>
+        <!--MakeMeGreat-->
+        <scene sceneID="eBt-Wn-3Yo">
+            <objects>
+                <tableViewController id="Six-Uf-qkP" customClass="SelectionTableViewController" customModule="MakeMeGreat" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="ZYf-gu-Jx4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="534"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="LAe-Z1-gL6">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" indentationWidth="10" id="LAe-Z1-gL6">
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LAe-Z1-gL6" id="9Ky-s0-wda">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -32,29 +100,29 @@
                             <outlet property="delegate" destination="Six-Uf-qkP" id="ywb-bp-ebP"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="emb-71-yhK"/>
+                    <navigationItem key="navigationItem" title="MakeMeGreat" id="emb-71-yhK"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIn-CR-nUu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="540" y="-16"/>
+            <point key="canvasLocation" x="2423" y="-307"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="MT6-Lc-9y2">
+        <scene sceneID="C32-6c-Ccq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4ye-pM-jSU" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hD2-SG-ybn" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="V3B-3R-Fpc">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Wf-Ur-Vk7">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Six-Uf-qkP" kind="relationship" relationship="rootViewController" id="nEN-Q0-fqE"/>
+                        <segue destination="4gb-2Z-Awp" kind="relationship" relationship="rootViewController" id="kJE-6Y-0of"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fQH-oQ-H9r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QkX-Zc-KhL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-236" y="-15"/>
+            <point key="canvasLocation" x="-505" y="-306"/>
         </scene>
     </scenes>
 </document>

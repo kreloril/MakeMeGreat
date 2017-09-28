@@ -9,7 +9,7 @@
 import XCTest
 @testable import MakeMeGreat
 
-class MakeMeGreatTests: XCTestCase {
+class MakeMeGreatTestsAffrimModel: XCTestCase {
     
     override func setUp() {
         super.setUp()

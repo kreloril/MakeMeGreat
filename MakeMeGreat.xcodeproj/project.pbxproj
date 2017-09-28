@@ -12,10 +12,14 @@
 		023D6FE51F7B0163008B131C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023D6FE31F7B0163008B131C /* Main.storyboard */; };
 		023D6FE71F7B0163008B131C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023D6FE61F7B0163008B131C /* Assets.xcassets */; };
 		023D6FEA1F7B0163008B131C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023D6FE81F7B0163008B131C /* LaunchScreen.storyboard */; };
-		023D6FF51F7B0163008B131C /* MakeMeGreatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D6FF41F7B0163008B131C /* MakeMeGreatTests.swift */; };
+		023D6FF51F7B0163008B131C /* MakeMeGreatTestsAffrimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D6FF41F7B0163008B131C /* MakeMeGreatTestsAffrimModel.swift */; };
 		023D70001F7B02EE008B131C /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D6FFF1F7B02ED008B131C /* SelectionTableViewController.swift */; };
 		023D70021F7B0F68008B131C /* AffrimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D70011F7B0F68008B131C /* AffrimModel.swift */; };
 		023D70031F7B0F68008B131C /* AffrimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D70011F7B0F68008B131C /* AffrimModel.swift */; };
+		023D70051F7C7180008B131C /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 023D70041F7C7180008B131C /* data.plist */; };
+		023D70061F7C7180008B131C /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 023D70041F7C7180008B131C /* data.plist */; };
+		023D70091F7CAB7E008B131C /* ShowAffrimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D70081F7CAB7E008B131C /* ShowAffrimationViewController.swift */; };
+		023D700A1F7CAB7E008B131C /* ShowAffrimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023D70081F7CAB7E008B131C /* ShowAffrimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,13 @@
 		023D6FE91F7B0163008B131C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		023D6FEB1F7B0163008B131C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		023D6FF01F7B0163008B131C /* MakeMeGreatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeMeGreatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		023D6FF41F7B0163008B131C /* MakeMeGreatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMeGreatTests.swift; sourceTree = "<group>"; };
+		023D6FF41F7B0163008B131C /* MakeMeGreatTestsAffrimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMeGreatTestsAffrimModel.swift; sourceTree = "<group>"; };
 		023D6FF61F7B0163008B131C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		023D6FFF1F7B02ED008B131C /* SelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewController.swift; sourceTree = "<group>"; };
 		023D70011F7B0F68008B131C /* AffrimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffrimModel.swift; sourceTree = "<group>"; };
+		023D70041F7C7180008B131C /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = data.plist; path = MakeMeGreat/data.plist; sourceTree = "<group>"; };
+		023D70071F7C7185008B131C /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		023D70081F7CAB7E008B131C /* ShowAffrimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAffrimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +71,7 @@
 		023D6FD31F7B0163008B131C = {
 			isa = PBXGroup;
 			children = (
+				023D70041F7C7180008B131C /* data.plist */,
 				023D6FDE1F7B0163008B131C /* MakeMeGreat */,
 				023D6FF31F7B0163008B131C /* MakeMeGreatTests */,
 				023D6FDD1F7B0163008B131C /* Products */,
@@ -82,6 +90,7 @@
 		023D6FDE1F7B0163008B131C /* MakeMeGreat */ = {
 			isa = PBXGroup;
 			children = (
+				023D70071F7C7185008B131C /* data.plist */,
 				023D6FDF1F7B0163008B131C /* AppDelegate.swift */,
 				023D6FE11F7B0163008B131C /* ViewController.swift */,
 				023D6FE31F7B0163008B131C /* Main.storyboard */,
@@ -90,6 +99,7 @@
 				023D6FEB1F7B0163008B131C /* Info.plist */,
 				023D6FFF1F7B02ED008B131C /* SelectionTableViewController.swift */,
 				023D70011F7B0F68008B131C /* AffrimModel.swift */,
+				023D70081F7CAB7E008B131C /* ShowAffrimationViewController.swift */,
 			);
 			path = MakeMeGreat;
 			sourceTree = "<group>";
@@ -97,7 +107,7 @@
 		023D6FF31F7B0163008B131C /* MakeMeGreatTests */ = {
 			isa = PBXGroup;
 			children = (
-				023D6FF41F7B0163008B131C /* MakeMeGreatTests.swift */,
+				023D6FF41F7B0163008B131C /* MakeMeGreatTestsAffrimModel.swift */,
 				023D6FF61F7B0163008B131C /* Info.plist */,
 			);
 			path = MakeMeGreatTests;
@@ -188,6 +198,7 @@
 			files = (
 				023D6FEA1F7B0163008B131C /* LaunchScreen.storyboard in Resources */,
 				023D6FE71F7B0163008B131C /* Assets.xcassets in Resources */,
+				023D70051F7C7180008B131C /* data.plist in Resources */,
 				023D6FE51F7B0163008B131C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023D70061F7C7180008B131C /* data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023D70091F7CAB7E008B131C /* ShowAffrimationViewController.swift in Sources */,
 				023D6FE21F7B0163008B131C /* ViewController.swift in Sources */,
 				023D6FE01F7B0163008B131C /* AppDelegate.swift in Sources */,
 				023D70021F7B0F68008B131C /* AffrimModel.swift in Sources */,
@@ -217,8 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023D700A1F7CAB7E008B131C /* ShowAffrimationViewController.swift in Sources */,
 				023D70031F7B0F68008B131C /* AffrimModel.swift in Sources */,
-				023D6FF51F7B0163008B131C /* MakeMeGreatTests.swift in Sources */,
+				023D6FF51F7B0163008B131C /* MakeMeGreatTestsAffrimModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
