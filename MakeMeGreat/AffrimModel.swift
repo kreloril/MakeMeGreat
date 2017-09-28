@@ -55,8 +55,6 @@ open class AffrimModel: NSObject {
      
      no slots avaible, use original random selection.
      
- 
- 
      */
     
     func getAffrimation() -> String {
