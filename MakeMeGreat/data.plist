@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>affrimation</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Redneck</string>
+			<key>data</key>
+			<array>
+				<string>My head is getting smaller everyday.</string>
+				<string>Soon I will be moving out of my parent&apos;s basement.</string>
+				<string>I no longer live in a van down by the river.</string>
+				<string>I deserve to pay my child support.</string>
+				<string>I make smart choices with my food stamp money.</string>
+				<string>I never use my welfare payments to buy crack.</string>
+				<string>My pot use is for medical purposes only.</string>
+				<string>I have the drive to become a manager at Jack in the box.</string>
+				<string>My beer skill is valued and valuable.</string>
+				<string>My drug dealer respects me.</string>
+				<string>My pimp doesn&apos;t beat me up anymore.</string>
+				<string>My methlab won&apos;t explode this week.</string>
+				<string>My pet nutra-rat loves me.</string>
+				<string>I do not impregnate my siblings.</string>
+			</array>
+		</dict>
+		<dict>
+			<key>data</key>
+			<array>
+				<string>I am in perfect health.</string>
+				<string>I repell illness.</string>
+				<string>Everyday I grow more healthy.</string>
+				<string>I claim my right to perfect health.</string>
+				<string>My body is wonderful and I want to take good care of it.</string>
+				<string>I make healthy choices. These make my body stronger.</string>
+				<string>I feel stronger every day.</string>
+				<string>Every part of my body is working perfectly.</string>
+				<string>I listen to my body&apos;s needs to stay healthy and happy.</string>
+				<string>With each breath, I am stronger and more healthy.</string>
+				<string>My food choices will always be the best for me.</string>
+				<string>Healthy eating is healthy living.</string>
+				<string>I will walk everyday.</string>
+				<string>Working out makes me feel better about myself.</string>
+				<string>illness is my enemy.</string>
+			</array>
+			<key>name</key>
+			<string>Health</string>
+		</dict>
+		<dict>
+			<key>data</key>
+			<array>
+				<string>I love my job.</string>
+				<string>I love doing an excellent job.</string>
+				<string>Completing tasks at work empowers me.</string>
+				<string>I am eager to complete my projects and tasks at work.</string>
+				<string>I am an important part of my workplace.</string>
+				<string>My coworkers respect me and my work.</string>
+				<string>I am valuable contributor in my workplace.</string>
+				<string>Every day I feel more confidence in myself.</string>
+				<string>My skills and abilities are valued and valuable.</string>
+				<string>I have creative solutions to my employers needs.</string>
+			</array>
+			<key>name</key>
+			<string>Work</string>
+		</dict>
+		<dict>
+			<key>data</key>
+			<array>
+				<string>I am releasing all my stress.</string>
+				<string>I am at peace.</string>
+				<string>My muscles are now relaxed.</string>
+				<string>I am intelligent. I am able to think clearly and creatively.</string>
+				<string>With every breath I am more relaxed.</string>
+				<string>Stress flows away from me like a water flows downstream.</string>
+				<string>I have the power to bring balance to my life.</string>
+				<string>My mind is filled with positive thoughts.</string>
+				<string>I am calm in all situations.</string>
+				<string>I bring peace and calm with me into every room.</string>
+				<string>I am at peace even with things around me are chaotic.</string>
+			</array>
+			<key>name</key>
+			<string>Stress</string>
+		</dict>
+		<dict>
+			<key>data</key>
+			<array>
+				<string>I enjoy saving money.</string>
+				<string>I am smart with my money. I spend it wisely.</string>
+				<string>My debt is getting smaller every day.</string>
+				<string>I respect the power money has, but it does not rule me.</string>
+				<string>I am in control of my money.</string>
+				<string>Money is attracted to me.</string>
+				<string>I am becoming financially successful.</string>
+				<string>I deserve financial success.</string>
+				<string>I am focused on achieving financial security.</string>
+				<string>I am confident in the value of my talents. I will use them to create my wealth.</string>
+			</array>
+			<key>name</key>
+			<string>Financial</string>
+		</dict>
+		<dict>
+			<key>data</key>
+			<array>
+				<string>I am a worthy human being.</string>
+				<string>I find all things are possible.</string>
+				<string>Difficult tasks are simply challenges that help me shine.</string>
+				<string>I thrive on challenges and new experiences.</string>
+				<string>I love myself and am loved by others.</string>
+				<string>I believe in myself.</string>
+				<string>I am in control of my thoughts and feelings.</string>
+				<string>Every day I feel more confidence in myself.</string>
+				<string>I am a good person.</string>
+				<string>My feelings and opinions are valid and should be heard.</string>
+			</array>
+			<key>name</key>
+			<string>Self Confidence</string>
+		</dict>
+		<dict>
+			<key>data</key>
+			<array>
+				<string>I love my partner.</string>
+				<string>My partner meets my needs and I meet theirs.</string>
+				<string>My partner loves me.</string>
+				<string>I only bring positive people into my life.</string>
+				<string>Positive people are attracted to me.</string>
+				<string>I am attractive and lovable.</string>
+				<string>I am worthy of being loved.</string>
+				<string>Loving others is a priority to me.</string>
+				<string>I make friends easily.</string>
+				<string>I attract good and kind people into my life.</string>
+			</array>
+			<key>name</key>
+			<string>Relationships</string>
+		</dict>
+		<dict>
+			<key>data</key>
+			<array>
+				<string>I find exercise gives me more energy.</string>
+				<string>I understand portion control and do not overfill my plate.</string>
+				<string>Fat melts off of me.</string>
+				<string>I have healthy body. It becomes more healthy every day.</string>
+				<string>I am beautiful and healthy.</string>
+				<string>I don&apos;t put more on my plate than I need to eat.</string>
+				<string>I find exercise fun and enjoyable.</string>
+				<string>Losing weight is easy for me.</string>
+				<string>I make good and healthy eating choices.</string>
+				<string>I stop eating when I am full.</string>
+				<string>I do not overeat, I am ok leaving food on my plate.</string>
+				<string>I do not overeat, I enjoy leftovers the next day.</string>
+			</array>
+			<key>name</key>
+			<string>Weight Loss</string>
+		</dict>
+		<dict>
+			<key>data</key>
+			<array>
+				<string>I am in control.</string>
+				<string>My happiness comes from within.</string>
+				<string>I have everything I need to be happy.</string>
+				<string>The only thing in control of me is me.</string>
+				<string>My life is free of all negative chains.</string>
+				<string>My life is free of all negative habits.</string>
+				<string>Being in control comes easily to me.</string>
+				<string>I respect my mind and my body.</string>
+				<string>I make friends easily.</string>
+				<string>I am more happy with myself everyday.</string>
+			</array>
+			<key>name</key>
+			<string>Addictions</string>
+		</dict>
+		<dict>
+			<key>data</key>
+			<array>
+				<string>I act deliberately and consciously.</string>
+				<string>I concentrate on a task until it is done.</string>
+				<string>I am calm and alert, ready to complete any task before me.</string>
+				<string>Actions around me do not distract me.</string>
+				<string>I am calm and focused on my work.</string>
+				<string>Concentration comes easily to me.</string>
+				<string>I have willpower and I am strong.</string>
+				<string>I am productive and effective.</string>
+				<string>I use my time effectively.</string>
+				<string>I will breathe deeply and with each breath feel more calm and focused.</string>
+				<string>Concentation seems easy and natural.</string>
+			</array>
+			<key>name</key>
+			<string>Focus</string>
+		</dict>
+		<dict>
+			<key>data</key>
+			<array>
+				<string>I will not be stopped by fear.</string>
+				<string>I am happy.</string>
+				<string>I am an intelligent human being.</string>
+				<string>I love myself and those around me.</string>
+				<string>Smiling makes me feel good.</string>
+				<string>I am confident in my abilities.</string>
+				<string>I have faith in who I am.</string>
+				<string>I trust myself.</string>
+				<string>I have clarity of thought.</string>
+				<string>I choose what thoughts are in my mind.</string>
+			</array>
+			<key>name</key>
+			<string>General</string>
+		</dict>
+	</array>
+</dict>
+</plist>
